@@ -1,8 +1,5 @@
 import re
 
-MAX_RED, MAX_GREEN, MAX_BLUE = 12, 13, 14
-
-
 def load_strings():
     tab = []
     with open("input.txt", "r") as file:
